@@ -1,0 +1,132 @@
+.price_column .btn-box{
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+.pricing-features{
+    min-height: 200px!important;
+    height: fit-content!important;
+}
+.pricing-header{
+    position: relative;
+}
+
+.email_contact:hover{
+    color: #13c4a1!important;
+}
+.email_contact{
+    color: #ff612f!important;
+}
+.tabs_item div.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.price_list{
+    display: flex;
+    min-width: 370px;
+}
+
+@media (min-width: 900px) {
+    .tabs_item div.row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }
+  @media (max-width: 1400px) {
+    .price_list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }
+.theme-dark .qform label{
+    color: white !important;;
+}
+.qform_submit{
+    background-color: #13c4a1 !important;
+}
+.qform-field__block_box__field{
+    border: 1px solid #13c4a1 !important;
+}
+.qform__success-send-msg{
+    font-size: 28px!important;
+    text-align: center!important;
+	margin-top:40px !important;
+}
+
+.contact-form h3{
+    text-align: center!important;
+}
+.price{
+    position: relative;
+}
+.price{
+    padding-top: 30px!important;
+    padding-bottom: 15px!important;;
+}
+.old_price{
+    opacity: 0.5;
+    font-size: 24px !important;
+    left: 20px;
+    top: 5px;
+    position: absolute;
+    font-weight: 500;
+    color:black;
+}
+.theme-dark .old_price{
+    color:white;
+}
+
+
+.old_price::before{
+    position: absolute;
+    content: "";
+    width: 108%;
+    height: 2px;
+    background-color:#ff4f19;
+    transform: rotate(5deg);
+    top:15px;
+    left: -5px;
+}
+.sale{
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+}
+.sale span{
+    color:#ff4f19;
+    font-weight: 400;
+}
+.sale:after{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 1px;
+    background-color: #ff4f19;
+    top:50%;
+    right: -30px;
+}
+
+.sale::before{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 1px;
+    background-color: #ff4f19;
+    top:50%;
+    left: -30px;
+}
+
+.discount{
+    font-size: 17px !important;
+    right: 20px;
+    top: 25px;
+    position: absolute;
+    font-weight: 500;
+    color:black;
+}
+.discount span{
+    color:#ff4f19;
+}
